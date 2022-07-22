@@ -5,13 +5,15 @@ import java.util.Random;
 public class 模拟双色球 {
     public static void main(String[] args) {
         //1.生成中奖号码
-
-
+        int[] arr = creatNumber();
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
 
 
     }
 
-    public static int [] creatNumber() {
+    public static int[] creatNumber() {
         //1.创建数组用于添加中奖号码
         //6个红球和1个蓝球,数组长度为7,用动态数组
         int[] arr = new int[7];
