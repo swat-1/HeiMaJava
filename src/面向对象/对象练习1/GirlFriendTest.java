@@ -1,5 +1,4 @@
-package 面向对象;
-
+package 面向对象.对象练习1;
 
 
 public class GirlFriendTest {
@@ -14,6 +13,7 @@ public class GirlFriendTest {
         System.out.println(gf1.getName());
         System.out.println(gf1.getAge());
         System.out.println(gf1.getGender());
+
         gf1.eat();
         gf1.sleep();
 

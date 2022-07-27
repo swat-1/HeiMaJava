@@ -1,4 +1,4 @@
-package 面向对象;
+package 面向对象.对象练习1;
 
 public class GirlFriend {
     private String name;
@@ -10,15 +10,21 @@ public class GirlFriend {
     //set方法:给成员变量赋值或限定范围
     //get方法:对外提供成员变量的值让外界能够调用这个变量
 
-    //name:
-    //作用:给成员变量name进行赋值
-    public void setName(String s) {
-        name = s;
-    }
     //对外提供name属性的
     public String getName() {
         return name;
     }
+
+    //name:
+    //作用:给成员变量name进行赋值
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     //age:
     public void setAge(int a) {
         if (a >= 18 && a <= 50) {
@@ -27,15 +33,14 @@ public class GirlFriend {
             System.out.println("非法参数");
         }
     }
-    public int getAge() {
-        return age;
+
+    public String getGender() {
+        return gender;
     }
+
     //gender:
     public void setGender(String g) {
         gender = g;
-    }
-    public String getGender() {
-        return gender;
     }
 
     public void sleep() {
