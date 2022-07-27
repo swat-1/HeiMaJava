@@ -1,4 +1,4 @@
-package 面向对象JavaBean生成;
+package 面向对象.面向对象JavaBean生成;
 
 public class Demo01 {
     private String userName;
